@@ -1,0 +1,27 @@
+{"intentos": [
+    {
+        "tag": "saludo",
+        "patterns": ["Hola", "¿Cómo estás?", "¿Qué tal?", "Buenos días", "Buenas tardes"],
+        "responses": ["¡Hola! ¿En qué puedo ayudarte?", "¡Hola! ¿Cómo puedo asistirte hoy?"]
+    },
+    {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Chao"],
+        "responses": ["¡Adiós! Que tengas un buen día.", "¡Hasta luego! Espero verte pronto."]
+    },
+    {
+        "tag": "agradecimiento",
+        "patterns": ["Gracias", "Muchas gracias", "Te lo agradezco"],
+        "responses": ["¡De nada! Estoy aquí para ayudarte.", "¡No hay de qué! Si necesitas algo más, solo dime."]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["¿Cómo te llamas?", "¿Cuál es tu nombre?", "¿Quién eres?"],
+        "responses": ["Me llamo Sabelotodo AD y soy un chatbot diseñado para ayudarte con tus preguntas.", "Soy Sabelotodo AD, tu asistente virtual. ¿En qué puedo ayudarte?"]
+    },
+    {
+        "tag": "ayuda",
+        "patterns": ["Necesito ayuda", "¿Puedes ayudarme?", "¿Qué puedes hacer?"],
+        "responses": ["Claro, estoy aquí para ayudarte. ¿En qué necesitas asistencia?", "Por supuesto, dime cómo puedo ayudarte."]
+    }
+]}
