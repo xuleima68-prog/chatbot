@@ -1,3 +1,10 @@
+/*
+{
+"tag":,
+"patterns": [""],
+"responses": [""]
+}
+*/
 {"intentos": [
     {
         "tag": "saludo",
@@ -38,5 +45,10 @@
         "tag": "como crear un usuario en active directory",
         "patterns": ["¿Cómo creo un usuario en Active Directory?", "¿Cómo agregar un usuario en Active Directory?", "¿Cómo se crea un usuario en Active Directory?"],
         "responses": ["Para crear un usuario en Active Directory, puedes seguir estos pasos: 1. Abre el Administrador de Servidores. 2. Navega a la carpeta Usuarios. 3. Haz clic derecho y selecciona 'Nuevo'. 4. Rellena los detalles del usuario y haz clic en 'Siguiente'. 5. Establece la contraseña y confirma los cambios."]
+    },
+    {
+        "tag": "mensaje",
+        "patterns": ["¿como activo Active Directory?"],
+        "responses": ["Primero tienes que descargar el Active Didectory"]
     }
 ]}
