@@ -35,5 +35,10 @@
         "tag": "mensaje",
         "patterns": ["¿como activo Active Directory?"],
         "responses": ["Primero tienes que descargar el Active Didectory"]
+    },
+    {
+        "tag":"--",
+        "patterns": [""],
+        "responses": [""]
     }
 ]}
