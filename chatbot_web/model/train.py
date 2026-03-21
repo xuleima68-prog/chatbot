@@ -1,10 +1,6 @@
-import random 
-import json 
+import json
 import pickle
-import nltk 
-from nltk.stem import WordNetLemamatizer
+import nltk
+from nltk.stem import WordNetLemmatizer
 import numpy as np
-
-#Descargo los paquetes que necesitamos de nltk
-nltk.download("punkt")
-nltk.download("wordnet")
+import os

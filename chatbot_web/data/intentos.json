@@ -6,7 +6,7 @@
     },
     {
         "tag": "despedida",
-        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Chao"],
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Chao" ,"adios"],
         "responses": ["¡Adiós! Que tengas un buen día.", "¡Hasta luego! Espero verte pronto."]
     },
     {
@@ -23,5 +23,20 @@
         "tag": "ayuda",
         "patterns": ["Necesito ayuda", "¿Puedes ayudarme?", "¿Qué puedes hacer?"],
         "responses": ["Claro, estoy aquí para ayudarte. ¿En qué necesitas asistencia?", "Por supuesto, dime cómo puedo ayudarte."]
+    },
+    {
+        "tag": "active directory",
+        "patterns": ["¿Qué es Active Directory?", "¿Para qué sirve Active Directory?", "¿Cómo funciona Active Directory?"],
+        "responses": ["Active Directory es un servicio de directorio desarrollado por Microsoft para gestionar y organizar recursos en una red. Permite a los administradores gestionar usuarios, grupos, dispositivos y políticas de seguridad de manera centralizada.", "Active Directory es una herramienta que facilita la administración de redes y recursos en entornos empresariales, proporcionando autenticación y autorización para usuarios y dispositivos."]
+    },
+    {
+        "tag": "windows server",
+        "patterns": ["¿Qué es Windows Server?", "¿Para qué sirve Windows Server?", "¿Cómo funciona Windows Server?"],
+        "responses": ["Windows Server es un sistema operativo desarrollado por Microsoft diseñado para servidores. Proporciona una plataforma para ejecutar aplicaciones, gestionar recursos y ofrecer servicios a los usuarios en una red.", "Windows Server es un sistema operativo que permite a las empresas gestionar sus servidores y recursos de manera eficiente, ofreciendo características como Active Directory, servicios de archivos y seguridad avanzada."]
+    },
+    {
+        "tag": "como crear un usuario en active directory",
+        "patterns": ["¿Cómo creo un usuario en Active Directory?", "¿Cómo agregar un usuario en Active Directory?", "¿Cómo se crea un usuario en Active Directory?"],
+        "responses": ["Para crear un usuario en Active Directory, puedes seguir estos pasos: 1. Abre el Administrador de Servidores. 2. Navega a la carpeta Usuarios. 3. Haz clic derecho y selecciona 'Nuevo'. 4. Rellena los detalles del usuario y haz clic en 'Siguiente'. 5. Establece la contraseña y confirma los cambios."]
     }
 ]}
